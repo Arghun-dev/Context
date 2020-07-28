@@ -636,4 +636,7 @@ export function LanguageProvider(props) {
 }
 ```
 
-**As you can see I have converted the `LanguageProvider` to functional component and I used `Hooks` that is much better and cleaner**
+**As you can see I have converted the `LanguageProvider` to functional component and I used `Hooks` that is much better and cleaner**.
+
+
+`until now we've learned the basics of context now we want to build a todoApp using **context**`
