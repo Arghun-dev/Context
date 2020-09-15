@@ -640,3 +640,20 @@ export function LanguageProvider(props) {
 
 
 `until now we've learned the basics of context now we want to build a todoApp using **context**`
+
+
+### Important tip
+
+`type error reducer is not a function`
+
+**always remember you have to put `reducer` before `state` inside `context initializing state`**
+
+CORRECT:
+```js
+const [eventState, EventDispatch] = useReducer(reducer, state)
+```
+
+IN_CORRECT:
+```js
+const [eventState, EventDispatch] = useReducer(state, reducer)
+```
